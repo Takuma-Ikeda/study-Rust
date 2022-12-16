@@ -40,4 +40,10 @@ cd first-project
 
 # main.rs が実行される
 cargo run
+
+# コードの自動整形
+cargo fmt
+
+# コードの静的解析
+cargo clippy
 ```
