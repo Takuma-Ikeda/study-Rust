@@ -1,13 +1,18 @@
+# cargo make watch タスク定義
 [tasks.watch]
 run_task = [
     { name = ["clippy", "test"] }
 ]
 watch = true
 
+# cargo make clippy タスク定義
 [tasks.clippy]
+# cargo clippy コマンド実行
 command = "cargo"
 args = ["clippy"]
 
+# cargo make test タスク定義
 [tasks.test]
+# cargo test コマンド実行
 command = "cargo"
 args = ["test"]

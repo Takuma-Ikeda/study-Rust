@@ -31,7 +31,7 @@ rustc --version
 rustc 1.66.0 (69f9c33d7 2022-12-12)
 ```
 
-## 新規ファイル生成
+## cargo コマンド
 
 ```sh
 # first-project/src/main.rs という Hello World を標準出力する雛形ファイルが作成される
@@ -46,4 +46,11 @@ cargo fmt
 
 # コードの静的解析
 cargo clippy
+```
+
+## cargo make コマンド
+
+```sh
+# first-project/Makefile.toml に定義した watch コマンドを実行
+cargo make watch
 ```
