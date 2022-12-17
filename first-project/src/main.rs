@@ -8,6 +8,8 @@ mod fn_closure_sample;
 mod struct_sample;
 mod enum_sample;
 mod option_result_sample;
+mod ownership_sample;
+mod ownership_with_lifetime_param_sample;
 
 fn main() {
     let_mut_sample::example();
@@ -19,4 +21,6 @@ fn main() {
     fn_closure_sample::example();
     struct_sample::example();
     enum_sample::example();
+    ownership_sample::example();
+    ownership_with_lifetime_param_sample::example();
 }
