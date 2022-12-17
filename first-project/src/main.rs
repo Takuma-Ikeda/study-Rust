@@ -6,6 +6,7 @@ mod for_while_loop;
 mod match_sample;
 mod fn_closure_sample;
 mod struct_sample;
+mod enum_sample;
 
 fn main() {
     let_mut_sample::example();
@@ -16,4 +17,5 @@ fn main() {
     match_sample::example();
     fn_closure_sample::example();
     struct_sample::example();
+    enum_sample::example();
 }
