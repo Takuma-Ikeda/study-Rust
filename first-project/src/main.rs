@@ -7,6 +7,7 @@ mod match_sample;
 mod fn_closure_sample;
 mod struct_sample;
 mod enum_sample;
+mod option_result_sample;
 
 fn main() {
     let_mut_sample::example();

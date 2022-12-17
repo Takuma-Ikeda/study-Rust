@@ -1,5 +1,5 @@
 /*
- * enum (列挙型)
+ * enum (列挙型) による Color 型定義
  * 構造体を定義できる
  */
 enum Color {
