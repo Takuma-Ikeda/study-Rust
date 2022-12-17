@@ -4,6 +4,7 @@ mod tupple_sample;
 mod if_sample;
 mod for_while_loop;
 mod match_sample;
+mod fn_closure_sample;
 
 fn main() {
     let_mut_sample::example();
@@ -12,4 +13,5 @@ fn main() {
     if_sample::example();
     for_while_loop::example();
     match_sample::example();
+    fn_closure_sample::example();
 }
