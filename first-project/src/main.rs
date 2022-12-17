@@ -5,6 +5,7 @@ mod if_sample;
 mod for_while_loop;
 mod match_sample;
 mod fn_closure_sample;
+mod struct_sample;
 
 fn main() {
     let_mut_sample::example();
@@ -14,4 +15,5 @@ fn main() {
     for_while_loop::example();
     match_sample::example();
     fn_closure_sample::example();
+    struct_sample::example();
 }
