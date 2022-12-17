@@ -1,3 +1,7 @@
+mod variable;
+mod string_array_vector;
+
 fn main() {
-    println!("Hello, world!");
+    variable::example();
+    string_array_vector::example();
 }
