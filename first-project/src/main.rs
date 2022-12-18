@@ -11,6 +11,7 @@ mod option_result_sample;
 mod ownership_sample;
 mod ownership_with_lifetime_param_sample;
 mod trait_sample;
+mod async_await_sample;
 
 fn main() {
     let_mut_sample::example();
@@ -25,4 +26,5 @@ fn main() {
     ownership_sample::example();
     ownership_with_lifetime_param_sample::example();
     trait_sample::example();
+    async_await_sample::example();
 }

@@ -31,10 +31,27 @@ rustc --version
 rustc 1.66.0 (69f9c33d7 2022-12-12)
 ```
 
+## 非同期処理のランタイム環境
+
+今回は [tokio](https://tokio.rs/) を利用する
+
+```sh
+# Tokio 学習が第一目標となるように設計されたライブラリ
+# ソースコード中にもたくさんのコメントがある
+# 現実の Redis ライブラリに求められる機能がいくつか欠けているので商用では使わないほうがいい
+cargo install mini-redis
+
+# サーバ立ち上げ
+mini-redis-server
+
+# (nil) が表示されたら OK
+mini-redis-cli get foo
+```
+
 ## cargo コマンド
 
 ```sh
-# first-project/src/main.rs という Hello World を標準出力する雛形ファイルが作成される
+# first-project/src/main.rs という Hello World を標準出力する雛形ファイル (クレート) が作成される
 cargo new first-project
 cd first-project
 

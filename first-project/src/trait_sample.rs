@@ -22,7 +22,7 @@ impl Greeter for Person {
  * 標準的な実装とは異なる実装をしたい場合、impl で自ら実装することもできる
  *
  * #[derive(XXX)] は型に標準的 (汎用的な) な実装を追加するトレイト
- * 以下では Hours 型にデバッグ出力機能を付加している
+ * 以下では Hours 型にデバッグ出力機能を trait として付加している
  */
 #[derive(Debug)]
 struct Hours(u32);
