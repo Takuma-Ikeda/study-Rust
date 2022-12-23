@@ -1,17 +1,17 @@
-mod let_mut_sample;
-mod string_array_vector_sample;
-mod tupple_sample;
-mod if_sample;
-mod for_while_loop;
-mod match_sample;
-mod fn_closure_sample;
-mod struct_sample;
+mod async_await_sample;
 mod enum_sample;
+mod fn_closure_sample;
+mod for_while_loop;
+mod if_sample;
+mod let_mut_sample;
+mod match_sample;
 mod option_result_sample;
 mod ownership_sample;
 mod ownership_with_lifetime_param_sample;
+mod string_array_vector_sample;
+mod struct_sample;
 mod trait_sample;
-mod async_await_sample;
+mod tupple_sample;
 
 fn main() {
     let_mut_sample::example();
