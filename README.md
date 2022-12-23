@@ -8,6 +8,12 @@
 
 - https://www.rust-lang.org/ja/tools/install
   - 公式手順
+- https://doc.rust-lang.org/cargo/
+  - Cargo
+- https://crates.io/
+  - Crate.io
+- https://lib.rs/
+  - Lib.rs
 
 ```sh
 # 選択肢は default を選ぶ
